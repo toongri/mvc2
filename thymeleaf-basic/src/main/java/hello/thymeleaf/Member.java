@@ -1,4 +1,4 @@
 package hello.thymeleaf;
 
-public class member {
+public class Member {
 }
