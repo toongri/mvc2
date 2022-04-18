@@ -11,7 +11,7 @@ import java.util.UUID;
 @Slf4j
 public class LogInterceptor implements HandlerInterceptor {
 
-    public static final String LOG_ID = "logPw";
+    public static final String LOG_ID = "loginPassword";
 
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
