@@ -18,7 +18,6 @@ public class MyHandlerExceptionResolver implements HandlerExceptionResolver {
 
         try {
             if (ex instanceof IllegalArgumentException) {
-                log.info("IllegalArgumentException resolver to 400");
                 response.sendError(HttpServletResponse.SC_BAD_REQUEST, ex.getMessage());
                 return new ModelAndView();
             }
